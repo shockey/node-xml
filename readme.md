@@ -12,7 +12,7 @@ This is made possible by listing [`stream`](https://www.npmjs.com/package/stream
 
 ## Install
 
-   $ npm install @kyleshockey/xml
+`npm install @kyleshockey/xml`
 
 ## API
 
