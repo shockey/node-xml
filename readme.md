@@ -1,3 +1,9 @@
+This is a fork of `xml` that supports usage in browsers, without the need for a module loader/bundler that supports shimming built-in Node.js modules.
+
+This is made possible by listing [`stream`](https://www.npmjs.com/package/stream) as a dependency in the package manifest. Since Node.js [prioritizes its own built-in modules](https://nodejs.org/api/modules.html#modules_core_modules) over third-party modules of the same name, Node.js continues to use the built-in implementation, while a browser context also gets the `stream` module that it needs.
+
+---
+
 # xml [![Build Status](https://api.travis-ci.org/dylang/node-xml.svg)](http://travis-ci.org/dylang/node-xml)
 
 [![NPM](https://nodei.co/npm/xml.png?downloads=true)](https://nodei.co/npm/xml/)
