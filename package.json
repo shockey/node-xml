@@ -1,7 +1,7 @@
 {
-  "name": "xml",
+  "name": "@kyleshockey/xml",
   "version": "1.0.1",
-  "description": "Fast and simple xml generator. Supports attributes, CDATA, etc. Includes tests and examples.",
+  "description": "Fast and simple isomorphic xml generator. Supports attributes, CDATA, etc. Includes tests and examples.",
   "homepage": "http://github.com/dylang/node-xml",
   "keywords": [
     "xml",
@@ -22,10 +22,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/dylang/node-xml"
+    "url": "http://github.com/shockey/node-xml"
   },
   "bugs": {
-    "url": "http://github.com/dylang/node-xml/issues"
+    "url": "http://github.com/shockey/node-xml/issues"
+  },
+  "dependencies": {
+    "stream": "^0.0.2"
   },
   "devDependencies": {
     "ava": "^0.11.0"
