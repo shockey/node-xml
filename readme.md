@@ -4,9 +4,9 @@ This is made possible by listing [`stream`](https://www.npmjs.com/package/stream
 
 ---
 
-# xml [![Build Status](https://api.travis-ci.org/dylang/node-xml.svg)](http://travis-ci.org/dylang/node-xml)
+# xml
 
-[![NPM](https://nodei.co/npm/xml.png?downloads=true)](https://nodei.co/npm/xml/)
+[![NPM](https://nodei.co/npm/@kyleshockey/xml.png?downloads=true)](https://nodei.co/npm/xml/)
 
 > Fast and simple Javascript-based XML generator/builder for Node projects.
 
